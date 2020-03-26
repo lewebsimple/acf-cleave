@@ -11,5 +11,8 @@ Cleave.js field for Advanced Custom Field v5.
 
 == Changelog ==
 
+= 0.2.0 =
+* Add composer.json
+
 = 0.1.0 =
 * Initial plugin structure

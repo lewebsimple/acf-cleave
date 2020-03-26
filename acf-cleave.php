@@ -9,7 +9,7 @@
  * License URI:     http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:     acf-cleave
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.2.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -24,7 +24,7 @@ if ( ! class_exists( 'acf_cleave_plugin' ) ) {
 
 		function __construct() {
 			$this->settings = array(
-				'version' => '0.1.0',
+				'version' => '0.2.0',
 				'url'     => plugin_dir_url( __FILE__ ),
 				'path'    => plugin_dir_path( __FILE__ )
 			);

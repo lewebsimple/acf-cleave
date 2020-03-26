@@ -32,8 +32,8 @@ if ( ! class_exists( 'acf_cleave_field' ) ) {
 		}
 
 		function render_field( $field ) {
-		    // TODO Implement format presets in field settings (phone, credit card, date, etc.)
-            // TODO Add 'acf-cleave/options' filter
+      // TODO Implement format presets in field settings (phone, credit card, date, etc.)
+			// TODO Add 'acf-cleave/options' filter
 			$cleave_options = array(
 				'phone'           => true,
 				'phoneRegionCode' => 'CA',
